@@ -1,21 +1,21 @@
-import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native'
+import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
 import * as WebBrowser from "expo-web-browser";
-import React from 'react'
-import Colors from './../../Utils/Colors';
-import { useOAuth } from '@clerk/clerk-expo';
-import { useWarmUpBrowser } from '../../../hooks/warmUpBrowser';
+import React from "react";
+import Colors from "./../../Utils/Colors";
+import { useOAuth } from "@clerk/clerk-expo";
+import { useWarmUpBrowser } from "../../../hooks/warmUpBrowser";
 
 WebBrowser.maybeCompleteAuthSession();
 
 export default function LoginScreen() {
-      useWarmUpBrowser();
-      const { startOAuthFlow } = useOAuth({ strategy: "oauth_google" });
+  useWarmUpBrowser();
+  const { startOAuthFlow } = useOAuth({ strategy: "oauth_google" });
 
-      const onPress = async () => {
-                try {
+  const onPress = async () => {
+    try {
       const { createdSessionId, signIn, signUp, setActive } =
         await startOAuthFlow();
- 
+
       if (createdSessionId) {
         setActive({ session: createdSessionId });
       } else {
@@ -24,7 +24,7 @@ export default function LoginScreen() {
     } catch (err) {
       console.error("OAuth error", err);
     }
-      }
+  };
   return (
     <View
       style={{
@@ -64,36 +64,36 @@ export default function LoginScreen() {
 }
 
 const styles = StyleSheet.create({
-    logoText: {
-        textAlign: 'center',
-        fontFamily: 'outfit-bold',
-        fontSize: 40,
-    },
-    bgImage:{
-        width: '80%',
-        height: 280,
-        marginTop: 20,
-        objectFit: 'cover'
-    },
-    heading: {
-        fontFamily: 'outfit-bold',
-        fontSize: 25,
-        textAlign: 'center',
-        marginTop: 20
-    },
-    description: {
-        fontSize: 17,
-        fontFamily: 'outfit',
-        marginTop: 15,
-        textAlign: 'center',
-        color: Colors.BLACK,
-    },
-    button: {
-        backgroundColor: Colors.PRIMARY,
-        padding: 16,
-        display: 'flex',
-        borderRadius: 99,
-        marginTop: 40,
-        textAlign:'center'
-    }
-})
+  logoText: {
+    textAlign: "center",
+    fontFamily: "outfit-bold",
+    fontSize: 40,
+  },
+  bgImage: {
+    width: "80%",
+    height: 280,
+    marginTop: 20,
+    objectFit: "cover",
+  },
+  heading: {
+    fontFamily: "outfit-bold",
+    fontSize: 25,
+    textAlign: "center",
+    marginTop: 20,
+  },
+  description: {
+    fontSize: 17,
+    fontFamily: "outfit",
+    marginTop: 15,
+    textAlign: "center",
+    color: Colors.BLACK,
+  },
+  button: {
+    backgroundColor: Colors.PRIMARY,
+    padding: 16,
+    display: "flex",
+    borderRadius: 99,
+    marginTop: 40,
+    textAlign: "center",
+  },
+});

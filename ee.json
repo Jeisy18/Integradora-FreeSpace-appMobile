@@ -1,0 +1,248 @@
+{
+  "places": [
+    {
+      "formattedAddress": "Morelos 7, Centro, 74400 Izúcar de Matamoros, Pue., Mexico",
+      "location": { "latitude": 18.603316799999998, "longitude": -98.4648744 },
+      "displayName": {
+        "text": "Estacionamiento \"Los Girasoles\"",
+        "languageCode": "es"
+      },
+      "shortFormattedAddress": "Morelos 7, Centro, Izúcar de Matamoros",
+      "photos": [
+        {
+          "name": "places/ChIJh3vu9RIAz4URdA2GbhjKiYk/photos/ATplDJYD2QshKe6rdUrEbHt9eh-AeV1Stfm8CAKwISiLtirFxMzfssmKkJYYvUnL-YSMlV3EklditX9JkVgOKFnC5iG8xamiWO_-gk5H91v_5jFXhnS5pfHWM3rijqjv19HtEJKNYWSXVWp1JcAN5g-gQAmzAQ7WelL7pYz8",
+          "widthPx": 2048,
+          "heightPx": 1536,
+          "authorAttributions": [
+            {
+              "displayName": "Estacionamiento \"Los Girasoles\"",
+              "uri": "//maps.google.com/maps/contrib/116950772795008706025",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7X4Q4wCgGXZrAvEna0vQ_MEZm7cAI4YzjUmqGm3kUJQ=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJh3vu9RIAz4URdA2GbhjKiYk/photos/ATplDJba6NqONFyWmaTFhz8Apy6rfGmaSyAIbGlIs5VhRbcLpa54KbsupJFBBw8DaFRe_lMmA-OJoO17-18UnJFLJPsYiRIgUd3n_GqSef747x6NKFLQfgFHQGwDtuvnF0st8-6Soo6u8Od0lLCh9bnqk0GkZH0IuqB3ns5n",
+          "widthPx": 4193,
+          "heightPx": 2359,
+          "authorAttributions": [
+            {
+              "displayName": "Bruno Diaz",
+              "uri": "//maps.google.com/maps/contrib/103209617480889997566",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjXN6yKUxrwJO4rCLwycuoNVYH-9rw2gRbsJ_C8n62odgg=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJh3vu9RIAz4URdA2GbhjKiYk/photos/ATplDJZa6iXwpUHX3fDeMEzYGNGNzRFCP9x1l727m51QvOyaoFQbcoePpQbA2AaJS7Ku0qbk2xbHVUgkd47XzA_iZp_BQPjSgB-3KNithmu-olF3VPSRPGBnUqt-_mttrGxWR1dKYwf8cA0HO0nqCMhmiKkyf3f_Jlrkojk_",
+          "widthPx": 2048,
+          "heightPx": 1536,
+          "authorAttributions": [
+            {
+              "displayName": "Estacionamiento \"Los Girasoles\"",
+              "uri": "//maps.google.com/maps/contrib/116950772795008706025",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7X4Q4wCgGXZrAvEna0vQ_MEZm7cAI4YzjUmqGm3kUJQ=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJh3vu9RIAz4URdA2GbhjKiYk/photos/ATplDJYgay1DUOyntw2i_hVJszoNGlsh3hzUpTowJQatUAX-7sGNSLIilaHecvuNwyLLpFCwS3jWm-P0cPFdLd4k64aOjvGVhUyckiyFaql9T8BbmdcRAoW0QEitU8CEqCx39oTqoh0O6BeVKxfQCh1gqlmdPYCv1aG7DaDk",
+          "widthPx": 2048,
+          "heightPx": 459,
+          "authorAttributions": [
+            {
+              "displayName": "Estacionamiento \"Los Girasoles\"",
+              "uri": "//maps.google.com/maps/contrib/116950772795008706025",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7X4Q4wCgGXZrAvEna0vQ_MEZm7cAI4YzjUmqGm3kUJQ=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJh3vu9RIAz4URdA2GbhjKiYk/photos/ATplDJb2SeCwY5NDFwX8mJOb2FqiO4zodOsd4SAHF7EC11EaQTbOPe9AsXuxuDj8gw-Qaj5SD2m91vPttQtDvokkJ1yKQHCEBMT1vkwWlqekLq8GdvJajQZJne2OUdgdjlSapcgASvMOlyoVM_msvR8MYyL_8Mll7Qj0HGwy",
+          "widthPx": 850,
+          "heightPx": 567,
+          "authorAttributions": [
+            {
+              "displayName": "Estacionamiento \"Los Girasoles\"",
+              "uri": "//maps.google.com/maps/contrib/116950772795008706025",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV7X4Q4wCgGXZrAvEna0vQ_MEZm7cAI4YzjUmqGm3kUJQ=s100-p-k-no-mo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "formattedAddress": "C. Aquiles Serdán 13, Centro, 74400 Izúcar de Matamoros, Pue., Mexico",
+      "location": { "latitude": 18.6032938, "longitude": -98.4675934 },
+      "displayName": { "text": "Estacionamiento", "languageCode": "es" },
+      "shortFormattedAddress": "C. Aquiles Serdán 13, Centro, Izúcar de Matamoros",
+      "photos": [
+        {
+          "name": "places/ChIJS1EeB4kBz4UR4FkPY2s3SpE/photos/ATplDJZjHUkFY8gw3eInSh8uitiSkfidHh3d0-FxYkGqiVzg9_hOTYZE85vFZWUMB-sDrOcmL8PECpmZE9Wjr2mYEdFIltpbXMIFRCCNwBtbwZM06-YdZVD5MPuM2ea69yNK-D74VoycZz9g55GkJNrpHe4jOsouevuqlD3k",
+          "widthPx": 720,
+          "heightPx": 1280,
+          "authorAttributions": [
+            {
+              "displayName": "lyncorbet gs",
+              "uri": "//maps.google.com/maps/contrib/106779979267614967356",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjV3veHtJSj_G469hRGI8G123LwxaAWJpdGeiYkfwYNZslw=s100-p-k-no-mo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "formattedAddress": "C. Hidalgo 4, Centro, 74400 Izúcar de Matamoros, Pue., Mexico",
+      "location": { "latitude": 18.601312999999998, "longitude": -98.466438 },
+      "displayName": { "text": "Jorge", "languageCode": "es" },
+      "shortFormattedAddress": "Estacionamiento, C. Hidalgo 4, Centro, Izúcar de Matamoros"
+    },
+    {
+      "formattedAddress": "Melchor Ocampo 22A, Centro, 74400 Izúcar de Matamoros, Pue., Mexico",
+      "location": { "latitude": 18.6025329, "longitude": -98.46818599999999 },
+      "displayName": {
+        "text": "Estacionamiento los Guerreros",
+        "languageCode": "es"
+      },
+      "shortFormattedAddress": "Melchor Ocampo 22A, Centro, Izúcar de Matamoros",
+      "photos": [
+        {
+          "name": "places/ChIJe6YP_fUBz4URDPno882s8Us/photos/ATplDJZeJR2UJN3hEilWj6JemPavzGZ1MePrGzOE-OyPm7gaoBM1EfGmxnzrDk1eTbKTjrW4M3cKQl9jyxMk59cG697khmpfTCxaNTITybLK0K4P00dzCykjJ2iDuo62VFlu_qJJZwkVCXq25Z6e9rAFOp2RwZCdmeTUryUK",
+          "widthPx": 4000,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "Estacionamiento los Guerreros",
+              "uri": "//maps.google.com/maps/contrib/105824325148431355508",
+              "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKfurXPQP9RfsKoTGWQyVccZOEVvWFovoBsyp75cDJo=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJe6YP_fUBz4URDPno882s8Us/photos/ATplDJbcYVOYWRZpSLjXG-HP4TW3p0AxF2b1C9Txb3KEypQIVhc3y9tqO75k5VJx2gCCj_H1And73PUdi2Zx2J9I9fORDmLXdV3dWLBjwYbG5BZkU9F-Xk3OsVsaw5yhtqTMP3WhmISxz1h4aIBnf2V7N7B12WaZ9WGfJpeH",
+          "widthPx": 4000,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "Estacionamiento los Guerreros",
+              "uri": "//maps.google.com/maps/contrib/105824325148431355508",
+              "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKfurXPQP9RfsKoTGWQyVccZOEVvWFovoBsyp75cDJo=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJe6YP_fUBz4URDPno882s8Us/photos/ATplDJYYClVmbk5ImLvOItiGnoXflskStKh3UwNzAAn95LJ_68r5-c1WHEiWGHZ6AY9-NhL_bXE6wuUeztDBOeSfbf-PNu3zE37NWGpjsuctQt67bRLs3uCZA3EE-MhkGMPUuUvGcLjrQSijnkbSNb2qgtVDkSGpoFXqTNQn",
+          "widthPx": 4000,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "Frausto Guerrero",
+              "uri": "//maps.google.com/maps/contrib/109693627671945700677",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjUrFIxxlnhdpZo06yLwMWQrFCyluXy8JzLTonXsZCCxYq0=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJe6YP_fUBz4URDPno882s8Us/photos/ATplDJYliWVMCrAPX7fhqdLCC1RavFr9Z7M_LJ38nOrw6WSi92Iyud3cNblRg8ztZjFAI9wjajp3AykKYjD7UvzfZ3oVzHDPZY22DDDobHb_JqerIfHB8Y_zZz8gSLtbpI8qhUIcq2gZEWxEaTdn2CFO2_rH_pfM0frC4ubd",
+          "widthPx": 4000,
+          "heightPx": 3000,
+          "authorAttributions": [
+            {
+              "displayName": "Estacionamiento los Guerreros",
+              "uri": "//maps.google.com/maps/contrib/105824325148431355508",
+              "photoUri": "//lh3.googleusercontent.com/a/ACg8ocKfurXPQP9RfsKoTGWQyVccZOEVvWFovoBsyp75cDJo=s100-p-k-no-mo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "formattedAddress": "Calle Vicente Guerrero 43, Centro, 74400 Izúcar de Matamoros, Pue., Mexico",
+      "location": { "latitude": 18.5998709, "longitude": -98.4682188 },
+      "displayName": {
+        "text": "Estacionamiento \"Lupita\"",
+        "languageCode": "es"
+      },
+      "shortFormattedAddress": "Calle Vicente Guerrero 43, Centro, Izúcar de Matamoros"
+    },
+    {
+      "formattedAddress": "Santa Cruz Tecoxco, 74449 Izúcar de Matamoros, Pue., Mexico",
+      "location": { "latitude": 18.5988896, "longitude": -98.4733008 },
+      "displayName": {
+        "text": "Estacionamiento El Ciruelo",
+        "languageCode": "es"
+      },
+      "shortFormattedAddress": "Santa Cruz Tecoxco, Izúcar de Matamoros",
+      "photos": [
+        {
+          "name": "places/ChIJh7EDABoAz4URMm9sLQOrP24/photos/ATplDJYBoh6fbOHIieKWz05FJwbNQ4AYhPX5yk4v5sS7y9c3vH5CU3OEgKPbV-kA2HHls44jATi5LBeZgt5P7hSY4gjWYCXNxGcJ5e7yblghJuhXpDPTbczH8SLr8e7kdGxDY6CAcqyRhcADIKcM3FXJn6nJv7BU3m0IKXrX",
+          "widthPx": 4096,
+          "heightPx": 3072,
+          "authorAttributions": [
+            {
+              "displayName": "Luz Ahumada",
+              "uri": "//maps.google.com/maps/contrib/118429841301246734701",
+              "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLmUMcTK2feY-UmuWNNChWgf4Fuows6INmlrCHbKGDg=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJh7EDABoAz4URMm9sLQOrP24/photos/ATplDJZS_aZ1XPfyzFACZVxiGM6JJoNb7mS9nahckvp323yvGOW4lTdp-aNx0Gn8D15Y5sT43s2675jrEcEUhjdSMKNheI8KB6-1p0KhTAJOtQ8fuZqoKhqKd9QAzMh1MGBcsWnpG9OiJlHchc_jxtNIJ7g6BCSsaWflsChQ",
+          "widthPx": 3264,
+          "heightPx": 2448,
+          "authorAttributions": [
+            {
+              "displayName": "Luz Ahumada",
+              "uri": "//maps.google.com/maps/contrib/118429841301246734701",
+              "photoUri": "//lh3.googleusercontent.com/a/ACg8ocLmUMcTK2feY-UmuWNNChWgf4Fuows6INmlrCHbKGDg=s100-p-k-no-mo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "formattedAddress": "74450, C. Revolución 51, Santa Cruz Tecoxco, 74450 Izúcar de Matamoros, Pue., Mexico",
+      "location": {
+        "latitude": 18.596834899999998,
+        "longitude": -98.47343260000001
+      },
+      "displayName": {
+        "text": "Estacionamiento Los Compadres",
+        "languageCode": "es"
+      },
+      "shortFormattedAddress": "74450, C. Revolución 51, Santa Cruz Tecoxco, Izúcar de Matamoros",
+      "photos": [
+        {
+          "name": "places/ChIJ00Q9YhcAz4URsMkLyvobYdw/photos/ATplDJb0_6b-ya6NCvTpGdlFrzC8e42KQBwCzWLu0xh4DigMPMUhctch7aE0vJjpRwmT_UCfkRnk0jmHFFQkrfsPHK4z3q9HtA0ZYN1Vc1TXwAUjEmrIpmbLo1b9NepTSRr_ASepkc-gTk28Fu_0eixWdqN_wq0MusHb6d6y",
+          "widthPx": 3264,
+          "heightPx": 1836,
+          "authorAttributions": [
+            {
+              "displayName": "Nestor Altamirano",
+              "uri": "//maps.google.com/maps/contrib/112296171010410139935",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVyqLR82zS7J6liUFYQEvKyyhh6r4e3zyKv3IKk64fCyE7X=s100-p-k-no-mo"
+            }
+          ]
+        },
+        {
+          "name": "places/ChIJ00Q9YhcAz4URsMkLyvobYdw/photos/ATplDJamdHz4shwXayh54ctNFPxT0ZuUjLBzrO94PiNtSBvgtVOEjdWITrNs7fKYliXu_RagBtYOA4zi2WgiowUnl4hn0RBU2jb6_WnSZe-1A5jArWEAlKykkspcjo3p3k0ogP8CQ4qdPyv88jPBNPzlso6vlaD4tHov1FHD",
+          "widthPx": 3264,
+          "heightPx": 1836,
+          "authorAttributions": [
+            {
+              "displayName": "Nestor Altamirano",
+              "uri": "//maps.google.com/maps/contrib/112296171010410139935",
+              "photoUri": "//lh3.googleusercontent.com/a-/ALV-UjVyqLR82zS7J6liUFYQEvKyyhh6r4e3zyKv3IKk64fCyE7X=s100-p-k-no-mo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "formattedAddress": "De La Constitución 16, Centro, 74400 Izúcar de Matamoros, Pue., Mexico",
+      "location": { "latitude": 18.6032027, "longitude": -98.4661507 },
+      "displayName": { "text": "Plaza Cuali", "languageCode": "es" },
+      "shortFormattedAddress": "De La Constitución 16, Centro, Izúcar de Matamoros"
+    }
+  ]
+}

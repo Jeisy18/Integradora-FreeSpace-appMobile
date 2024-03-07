@@ -1,12 +1,12 @@
-import { View, Text, StyleSheet, Image } from 'react-native'
-import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
-import React, { useContext } from 'react'
-import MapViewStyle from './../../Utils/MapViewStyle.json'
-import MapViewStyleRetro from "./../../Utils/MapViewStyleRetro.json";
-import { UserLocationContext } from '../../Context/UserLocationContext';
+import { View, Text, StyleSheet, Image } from "react-native";
+import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
+import React, { useContext } from "react";
+import MapViewStyle from "../../../Utils/MapViewStyle.json";
+import MapViewStyleRetro from "../../../Utils/MapViewStyleRetro.json";
+import { UserLocationContext } from "../../../Context/UserLocationContext";
 
 export default function AppMapView() {
-  const {location, setLocation} = useContext(UserLocationContext);
+  const { location, setLocation } = useContext(UserLocationContext);
   return (
     location?.latitude && (
       <View>
@@ -14,7 +14,7 @@ export default function AppMapView() {
           showsCompass={false}
           style={styles.map}
           provider={PROVIDER_GOOGLE}
-          customMapStyle={MapViewStyle}
+          customMapStyle={MapViewStyleRetro}
           region={{
             latitude: location?.latitude,
             longitude: location?.longitude,
@@ -29,7 +29,7 @@ export default function AppMapView() {
             }}
           >
             <Image
-              source={require("./../../../assets/images/car.png")}
+              source={require("./../../../../assets/images/car.png")}
               style={{ width: 30, height: 30 }}
             />
           </Marker>

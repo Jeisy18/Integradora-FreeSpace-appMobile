@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { useFonts } from "expo-font";
-//import * as SplashScreen from "expo-splash-screen";
 import { useCallback } from "react";
 import LoginScreen from "./App/Screen/LoginScreen/LoginScreen";
 import { ClerkProvider, SignedIn, SignedOut } from "@clerk/clerk-expo";
@@ -10,11 +9,12 @@ import TabNavigation from "./App/Navigations/TabNavigation";
 import { NavigationContainer } from "@react-navigation/native";
 import * as Location from "expo-location";
 import { UserLocationContext } from "./App/Context/UserLocationContext";
-//SplashScreen.preventAutoHideAsync();
+
+// SplashScreen.preventAutoHideAsync();
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    "outfit": require("./assets/fonts/Outfit-Regular.ttf"),
+    outfit: require("./assets/fonts/Outfit-Regular.ttf"),
     "outfit-medium": require("./assets/fonts/Outfit-SemiBold.ttf"),
     "outfit-bold": require("./assets/fonts/Outfit-Bold.ttf"),
   });
@@ -77,6 +77,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    paddingTop: 25
+    paddingTop: 25,
   },
 });

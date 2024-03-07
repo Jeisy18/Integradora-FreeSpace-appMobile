@@ -47,11 +47,11 @@ export default function TabNavigation() {
           tabBarLabel: "Profile",
           tabBarActiveTintColor: Colors.PRIMARY,
           tabBarIcon: ({ color, size }) => (
-            <FontAwesome name="user-circle" size={size} color={color} />
-            // <Image
-            //   source={{ uri: user?.imageUrl }}
-            //   style={{ width: 39, height: 39, borderRadius: 99 }}
-            // />
+            // <FontAwesome name="user-circle" size={size} color={color} />
+            <Image
+              source={{ uri: user?.imageUrl }}
+              style={{ width: 39, height: 39, borderRadius: 99 }}
+            />
           ),
         }}
       />
