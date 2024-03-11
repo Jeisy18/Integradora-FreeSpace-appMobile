@@ -1,7 +1,8 @@
-import { View, Text, Image, Dimensions } from "react-native";
+import { View, Text, Image, Dimensions, StyleSheet } from "react-native";
 import React from "react";
 import Colors from "../../Utils/Colors";
 import GlobalApi from "../../Utils/GlobalApi";
+import { FontAwesome5 } from "@expo/vector-icons";
 
 export default function PlaceItem({ place }) {
   const PLACE_PHOTO_BASE_URL = "https://places.googleapis.com/v1/";
@@ -16,10 +17,16 @@ export default function PlaceItem({ place }) {
     >
       <Image
         source={
-          place?.photos?
-          {uri:PLACE_PHOTO_BASE_URL+place?.photos[0]?.name+
-          "/media?key="+GlobalApi?.API_KEY+"&maxHeightPx=800&maxWidthPx=1200"}
-          :require("./../../../assets/images/sv-estacionamiento_sF.jpg")
+          place?.photos
+            ? {
+                uri:
+                  PLACE_PHOTO_BASE_URL +
+                  place?.photos[0]?.name +
+                  "/media?key=" +
+                  GlobalApi?.API_KEY +
+                  "&maxHeightPx=800&maxWidthPx=1200",
+              }
+            : require("./../../../assets/images/sv-estacionamiento_sF.jpg")
         }
         style={{ width: "100%", borderRadius: 10, height: 130 }}
       />
@@ -44,6 +51,26 @@ export default function PlaceItem({ place }) {
           {place?.shortFormattedAddress}
         </Text>
       </View>
+      <View
+        style={{
+          display: "flex",
+          alignContent: "center",
+          justifyContent: "center",
+          margin: 5,
+          width: "20%",
+          padding: 12,
+          backgroundColor: Colors.PRIMARY,
+          borderRadius: 6,
+        }}
+      >
+        <FontAwesome5 name="location-arrow" size={25} color="white" />
+      </View>
     </View>
   );
 }
+const styles = StyleSheet.create({
+  arrow: {
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
